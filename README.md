@@ -16,8 +16,10 @@ Run `./bin/webpack-dev-server` if there are webpack errors to see compilation is
 
 I use Rails Panel during development https://chrome.google.com/webstore/detail/railspanel/gjpfobpafnhjhbajcjgccbbdofdckggg which shows up in your chrome developer console. I also use https://github.com/fazibear/colorize to color console output.
 
-If you would like to rename the project simply run `bundle install` and then `rails g rename:into your_new_app_name`. This will create a new folder with your project, make sure to search in all files because there will be a few places that you will need to manually change the name.
+If you would like to rename the project simply run `bundle install` and then `rails g rename:into your_new_app_name`. This will create a new folder with your project, make sure to search in all files because there will be a few places that you will need to manually change the name. Make sure to delete the existing .git folder afterwards.
 
 I have not setup Devise or modified any db info.
+
+I created a generic home page to view your Bootstrap color theme.
 
 
