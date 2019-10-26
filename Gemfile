@@ -7,6 +7,7 @@ ruby '2.6.3'
 gem 'rails', '~> 6.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
+# Use PostgreSQL as the database for Active Record
 # gem 'pg', '~> 1.1.4'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -36,8 +37,6 @@ gem 'font_awesome5_rails'
 
 gem 'marginalia'
 
-
-
 gem 'rename'
 
 group :development, :test do
@@ -55,14 +54,10 @@ group :development do
 
   gem 'letter_opener'
   gem 'bullet'
-
   gem "better_errors"
   gem "binding_of_caller"
-
   gem 'strong_migrations'
-
   gem 'meta_request'
-
   gem 'colorize'
 end
 
