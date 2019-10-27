@@ -29,7 +29,7 @@ I use Rails Panel during development the extension can be found [here](https://c
 
 If you would like to rename the project simply run `bundle install` and then `rails g rename:into your_new_app_name`. This will create a new folder with your project, make sure to search for `Rails6Scaffold` and `rails6_scaffold `in all files because there will be a few places that you will need to manually change the name. 
 
-There is a generic home page to view your Bootstrap color theme. You can simply delete the `app/views/home` folder and remove the entry in your `config/routes.rb` file when your finished setting up your color theme.
+There is a generic home page to view your Bootstrap color theme. You can simply delete the `app/views/home` folder, delete `app/controllers/home_controller.rb` file and remove the entry in your `config/routes.rb` file when your finished setting up your color theme.
 
 I also use https://github.com/fazibear/colorize to color console output, along with a few other development gems.
 
