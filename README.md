@@ -13,11 +13,11 @@
 <h2>Rails 6.0 + WebPack + Bootstrap 4.3 + FontAwesome Starter App</h2>
 </p>
 
-This starter app uses ruby 2.6.3, simply download the app and run the following commands:
+This starter app uses ruby 2.6.3, download or clone this project and then run the following commands:
 
 `bundle install`
 
-If you would like to rename the project simply run `DISABLE_SPRING=1 rails g rename:into your_new_app_name`. This will create a new folder with your project, make sure to search for `Rails6Scaffold` and `rails6_scaffold `in all files because there will be a few places that you will need to manually change the name. 
+If you would like to rename the project run `DISABLE_SPRING=1 rails g rename:into your_new_app_name`. This will create a new folder with your project, make sure to search for `Rails6Scaffold` and `rails6_scaffold `in all files because there will be a few places that you will need to manually change the name. 
 
 Here is a list of files found that will need to be manually updated after running the Rename gem:
 
