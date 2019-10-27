@@ -27,7 +27,7 @@ Run `./bin/webpack-dev-server` if there are Webpack errors to see compilation is
 
 Rails Panel is setup for development, which is a Chrome extension that can be found [here](https://chrome.google.com/webstore/detail/railspanel/gjpfobpafnhjhbajcjgccbbdofdckggg).
 
-If you would like to rename the project simply run `bundle install` and then `rails g rename:into your_new_app_name`. This will create a new folder with your project, make sure to search for `Rails6Scaffold` and `rails6_scaffold `in all files because there will be a few places that you will need to manually change the name. 
+If you would like to rename the project simply run `bundle install` and then `DISABLE_SPRING=1 rails g rename:into your_new_app_name`. This will create a new folder with your project, make sure to search for `Rails6Scaffold` and `rails6_scaffold `in all files because there will be a few places that you will need to manually change the name. 
 
 A generic home page was created to view the Bootstrap color themes. Simply delete the `app/views/home` folder, delete `app/controllers/home_controller.rb` file and remove the entry in the `config/routes.rb` file when you are finished setting up everything.
 
